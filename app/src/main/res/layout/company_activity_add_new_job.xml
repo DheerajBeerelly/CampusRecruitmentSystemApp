@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#263238"
+    android:padding="5dp"
+    tools:context=".CompanyAddNewJob">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/jobTitle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job Title"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/jobDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:hint="Job Description"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/jobRequirements"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:hint="Job Requirements"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/keyResponsibilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Key Responsibilities"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/salaryRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:hint="Salary Range"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/criteria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Criteria"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/saveJob"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/styled_button1"
+        android:layout_height="45dp"
+        android:text="Save">
+
+    </Button>
+</LinearLayout>
+</ScrollView>

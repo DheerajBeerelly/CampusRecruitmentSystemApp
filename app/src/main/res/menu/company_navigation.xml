@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/applications"
+        android:title="Applications"/>
+    <item android:id="@+id/profile"
+    android:title="Profile"/>
+    <item android:id="@+id/job"
+        android:title="Jobs"/>
+    <item android:id="@+id/viewStudents"
+        android:title="ViewStudents"/>
+    <item android:id="@+id/feedback"
+        android:title="Feedback"/>
+    <item android:id="@+id/logout"
+        android:title="logout"/>
+</menu>

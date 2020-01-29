@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#263238"
+    android:padding="30dp"
+    tools:context=".CompanySelectedJobDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/jobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/jobDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job Description"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/jobRequirements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job Requirements"
+            android:textStyle="bold"
+
+            android:textColor="#ffffff"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/keyResponsibilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:hint="Key Responsibilities"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/salaryRange"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+
+            android:layout_height="wrap_content"
+            android:hint="Salary Range"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        app:hintTextAppearance="@style/MyAppearance"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/criteria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:hint="Criteria"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/jobDelete"
+            android:layout_alignRight="@+id/jobDelete"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginEnd="199dp"
+            android:layout_marginRight="199dp"
+            android:background="@drawable/styled_button1"
+            android:text="Update">
+
+        </Button>
+
+        <Button
+            android:id="@+id/jobDelete"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="199dp"
+            android:layout_marginLeft="199dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/styled_button1"
+            android:text="Delete" />
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.campusrecruitmentsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminCompanyApplicantDetails"
+            android:parentActivityName=".AdminCompanyApplications"></activity>
+        <activity android:name=".AdminStudentApplicantDetails"
+            android:parentActivityName="AdminStudentApplications"/>
+        <activity android:name=".AdminStudentApplications" />
+        <activity
+            android:name=".AdminViewCompanyJobDetails"
+            android:parentActivityName=".AdminViewCompanies" />
+        <activity
+            android:name=".AdminViewCompanyJobs"
+            android:parentActivityName=".AdminViewCompanies" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminViewCompanies" />
+        <activity android:name=".AdminViewStudents" />
+        <activity android:name=".AdminCompanyApplications" />
+        <activity android:name=".AdminNavigationFragment" />
+        <activity android:name=".AdminLogin" />
+        <activity
+            android:name=".StudentSelectedApplication"
+            android:parentActivityName=".StudentApplications" />
+        <activity
+            android:name=".CompanySelectedApplication"
+            android:parentActivityName=".CompanyApplications" />
+        <activity
+            android:name=".StudentSelectedJobDetails"
+            android:parentActivityName=".StudentViewCompanies" />
+        <activity
+            android:name=".StudentViewCompanyJobs"
+            android:parentActivityName=".StudentViewCompanies" />
+        <activity
+            android:name=".CompanyViewStudentsFullDetails"
+            android:parentActivityName=".CompanyViewStudents" />
+        <activity
+            android:name=".StudentAcademicDetails"
+            android:parentActivityName=".StudentProfile" />
+        <activity android:name=".StudentFeedback" />
+        <activity android:name=".StudentViewCompanies" />
+        <activity android:name=".CompanyViewStudents" />
+        <activity android:name=".StudentNavigationFragment" />
+        <activity android:name=".StudentProfile" />
+        <activity android:name=".StudentApplications" />
+        <activity
+            android:name=".StudentSignUp"
+            android:parentActivityName=".StudentLogin" />
+        <activity android:name=".StudentLogin" />
+        <activity android:name=".CompanyFeedback" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".CompanySelectedJobDetails"
+            android:parentActivityName=".CompanyJobs" />
+        <activity android:name=".CompanyProfile" />
+        <activity
+            android:name=".CompanyAddNewJob"
+            android:parentActivityName=".CompanyJobs" />
+        <activity android:name=".CompanyNavigationFragment" />
+        <activity android:name=".CompanyJobs" />
+        <activity android:name=".CompanyApplications" />
+        <activity
+            android:name=".CompanySignUp"
+            android:parentActivityName=".CompanyLogin" />
+        <activity android:name=".CompanyLogin" />
+    </application>
+
+</manifest>
